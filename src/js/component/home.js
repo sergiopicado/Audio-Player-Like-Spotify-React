@@ -75,10 +75,7 @@ export class Home extends React.Component {
 					/>
 				</div>
 				<div className="row">
-					<audio
-						id="musiquita"
-						autoPlay
-						ref={t => (this.player = t)}></audio>
+					<audio autoPlay ref={t => (this.player = t)}></audio>
 				</div>
 				<div className="row">
 					<PlayStopButtons

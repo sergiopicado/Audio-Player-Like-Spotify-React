@@ -7,7 +7,7 @@ const SongList = props => {
 			{props.songs.map((song, index) => {
 				return (
 					<div
-						className="song col-12 text-center"
+						className="col-12 text-center song"
 						id={index}
 						key={index}
 						onClick={props.method}>
